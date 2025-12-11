@@ -137,7 +137,7 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/empath-engine.git
+git clone https://github.com/Menslanista/empath-engine.git
 cd empath-engine
 ```
 
@@ -532,16 +532,16 @@ SOFTWARE.
 ## Support
 
 For questions, issues, or feature requests:
-- **Issues**: [GitHub Issues](https://github.com/yourusername/empath-engine/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/empath-engine/discussions)
-- **Email**: support@synapticneurogaming.com
+- **Issues**: [GitHub Issues](https://github.com/Menslanista/empath-engine/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Menslanista/empath-engine/discussions)
+- **Email**: info@synapticwars.com
 
 ## Acknowledgments
 
 <<<<<<< HEAD
-Built with ❤️ by the Synaptic Neuro-Gaming team.
+Built with ❤️ by the Synaptic Wars Neuro-Gaming team.
 =======
-Built with ❤️ by the Synaptic Wars team. https://synapticwars.com/
+Built with ❤️ by the Synaptic Wars neuro-gaming team. https://synapticwars.com/
 >>>>>>> 39bb16d0d0e0731d379ceaaf756b4eef96e40e61
 
 Special thanks to all contributors and the open-source community.
