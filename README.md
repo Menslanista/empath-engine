@@ -538,6 +538,6 @@ For questions, issues, or feature requests:
 
 ## Acknowledgments
 
-Built with ❤️ by the Synaptic Neuro-Gaming team.
+Built with ❤️ by the Synaptic Wars team. https://synapticwars.com/
 
 Special thanks to all contributors and the open-source community.
