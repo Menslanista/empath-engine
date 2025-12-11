@@ -1,0 +1,19 @@
+name: Proto Check
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+jobs:
+  proto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install protoc
+        run: sudo apt-get update && sudo apt-get install -y protobuf-compiler
+      - name: Generate proto
+        run: sh scripts/generate-proto.sh
+      - name: Check diff
+        run: |
+          git status --porcelain
+          test -z "$(git status --porcelain)"

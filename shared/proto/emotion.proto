@@ -1,0 +1,22 @@
+syntax = "proto3";
+package empathengine.v1;
+
+message PlayerBehaviorData {
+  string session_id = 1;
+  int64 timestamp_ms = 2;
+  float decision_latency_ms = 3;
+  int32 action_frequency = 4;
+  repeated int32 recent_choices = 5;
+  map<string, float> context_data = 6;
+}
+
+message EmotionPrediction {
+  string dominant_emotion = 1;
+  float confidence = 2;
+  map<string, float> all_scores = 3;
+  int64 timestamp_ms = 4;
+}
+
+service EmotionInferenceService {
+  rpc InferEmotion(PlayerBehaviorData) returns (EmotionPrediction);
+}

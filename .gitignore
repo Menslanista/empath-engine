@@ -1,0 +1,11 @@
+for a better context understanding, you're required to review each file in the folder as all files convey information about the project. before you begin task execution, create a .gitignore file and tell git to ignore all the files that are in the folder before you proceed to create your task list.!.gitignore
+ai_readme_doc.md
+narrative_ip_platform.tsx
+narrative_ip_platform (1).tsx
+sprint_plans_q1.tsx
+investor_pitch_deck.tsx
+financial_model.tsx
+patent_applications.md
+patent_applications (1).md
+EmpathEngine_ Patent Application Drfts.pdf
+EmpathEngine_ Patent Application Drafts.pdf
