@@ -1,0 +1,96 @@
+C:\Users\CLAIRVOYANT\MyProjects\Programs\Documents\Source\empath-engine>make init
+  File "c:\users\clairvoyant\appdata\local\programs\python\python39\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\CLAIRVOYANT\AppData\Local\Programs\Python\Python39\Scripts\pip.exe\__main__.py", line 4, in <module>
+  File "c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages\pip\_internal\cli\main.py", line 11, in <module>
+cd services/emotion-inference && pip install -r requirements.txt
+    from pip._internal.cli.autocompletion import autocomplete
+  File "c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages\pip\_internal\cli\autocompletion.py", line 12, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages\pip\_internal\cli\main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages\pip\_internal\build_env.py", line 19, in <module>
+    from pip._internal.cli.spinners import open_spinner
+  File "c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages\pip\_internal\cli\spinners.py", line 11, in <module>
+    from pip._vendor.rich.console import (
+  File "c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages\pip\_vendor\rich\console.py", line 40, in <module>
+    from . import errors, themes
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 881, in get_code
+  File "<frozen importlib._bootstrap_external>", line 979, in get_data
+KeyboardInterrupt
+^CTerminate batch job (Y/N)? y
+Requirement already satisfied: fastapi==0.104.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from -r requirements.txt (line 1)) (0.104.1)
+Requirement already satisfied: uvicorn==0.24.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (0.24.0)
+Requirement already satisfied: pydantic==2.5.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from -r requirements.txt (line 3)) (2.5.0)
+Requirement already satisfied: protobuf==4.25.3 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from -r requirements.txt (line 4)) (4.25.3)
+Requirement already satisfied: pytest==7.4.3 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from -r requirements.txt (line 5)) (7.4.3)
+Requirement already satisfied: anyio<4.0.0,>=3.7.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from fastapi==0.104.1->-r requirements.txt (line 1)) (3.7.1)
+Requirement already satisfied: starlette<0.28.0,>=0.27.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from fastapi==0.104.1->-r requirements.txt (line 1)) (0.27.0)
+Requirement already satisfied: typing-extensions>=4.8.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from fastapi==0.104.1->-r requirements.txt (line 1)) (4.15.0)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pydantic==2.5.0->-r requirements.txt (line 3)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.14.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pydantic==2.5.0->-r requirements.txt (line 3)) (2.14.1)
+Requirement already satisfied: click>=7.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn==0.24.0->uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (8.1.8)
+Requirement already satisfied: h11>=0.8 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn==0.24.0->uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (0.16.0)
+Requirement already satisfied: iniconfig in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pytest==7.4.3->-r requirements.txt (line 5)) (2.1.0)
+Requirement already satisfied: packaging in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pytest==7.4.3->-r requirements.txt (line 5)) (25.0)
+Requirement already satisfied: pluggy<2.0,>=0.12 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pytest==7.4.3->-r requirements.txt (line 5)) (1.6.0)
+Requirement already satisfied: exceptiongroup>=1.0.0rc8 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pytest==7.4.3->-r requirements.txt (line 5)) (1.3.0)
+Requirement already satisfied: tomli>=1.0.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pytest==7.4.3->-r requirements.txt (line 5)) (2.3.0)
+Requirement already satisfied: colorama in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pytest==7.4.3->-r requirements.txt (line 5)) (0.4.6)
+Requirement already satisfied: httptools>=0.5.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (0.7.1)
+Requirement already satisfied: python-dotenv>=0.13 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (1.2.1)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (6.0.3)
+Requirement already satisfied: watchfiles>=0.13 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: websockets>=10.4 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (15.0.1)
+Requirement already satisfied: idna>=2.8 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from anyio<4.0.0,>=3.7.1->fastapi==0.104.1->-r requirements.txt (line 1)) (3.11)
+Requirement already satisfied: sniffio>=1.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from anyio<4.0.0,>=3.7.1->fastapi==0.104.1->-r requirements.txt (line 1)) (1.3.1)
+cd services/narrative-director && npm install --omit=dev
+
+up to date, audited 77 packages in 2m
+
+15 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+cd services/llm-gateway && go mod download || true && go build -o bin/llm-gateway cmd/main.go
+cd services/character-memory && pip install -r requirements.txt
+Requirement already satisfied: fastapi==0.104.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from -r requirements.txt (line 1)) (0.104.1)
+Requirement already satisfied: uvicorn==0.24.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (0.24.0)
+Requirement already satisfied: pydantic==2.5.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from -r requirements.txt (line 3)) (2.5.0)
+Requirement already satisfied: anyio<4.0.0,>=3.7.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from fastapi==0.104.1->-r requirements.txt (line 1)) (3.7.1)
+Requirement already satisfied: starlette<0.28.0,>=0.27.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from fastapi==0.104.1->-r requirements.txt (line 1)) (0.27.0)
+Requirement already satisfied: typing-extensions>=4.8.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from fastapi==0.104.1->-r requirements.txt (line 1)) (4.15.0)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pydantic==2.5.0->-r requirements.txt (line 3)) (0.7.0)
+Requirement already satisfied: pydantic-core==2.14.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from pydantic==2.5.0->-r requirements.txt (line 3)) (2.14.1)
+Requirement already satisfied: click>=7.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn==0.24.0->uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (8.1.8)
+Requirement already satisfied: h11>=0.8 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn==0.24.0->uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (0.16.0)
+Requirement already satisfied: colorama>=0.4 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (0.4.6)
+Requirement already satisfied: httptools>=0.5.0 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (0.7.1)
+Requirement already satisfied: python-dotenv>=0.13 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (1.2.1)
+Requirement already satisfied: pyyaml>=5.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (6.0.3)
+Requirement already satisfied: watchfiles>=0.13 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (1.1.1)
+Requirement already satisfied: websockets>=10.4 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from uvicorn[standard]==0.24.0->-r requirements.txt (line 2)) (15.0.1)
+Requirement already satisfied: idna>=2.8 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from anyio<4.0.0,>=3.7.1->fastapi==0.104.1->-r requirements.txt (line 1)) (3.11)
+Requirement already satisfied: sniffio>=1.1 in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from anyio<4.0.0,>=3.7.1->fastapi==0.104.1->-r requirements.txt (line 1)) (1.3.1)
+Requirement already satisfied: exceptiongroup in c:\users\clairvoyant\appdata\local\programs\python\python39\lib\site-packages (from anyio<4.0.0,>=3.7.1->fastapi==0.104.1->-r requirements.txt (line 1)) (1.3.0)
+Generating Python protobuf files...
+C:\Users\CLAIRVOYANT\AppData\Local\Programs\Python\Python39\python.exe: Error while finding module specification for 'grpc_tools.protoc' (ModuleNotFoundError: No module named 'grpc_tools')
+Warning: Python protobuf generation failed
+Generating Go protobuf files...
+'protoc-gen-go' is not recognized as an internal or external command,
+operable program or batch file.
+--go_out: protoc-gen-go: Plugin failed with status code 1.
+Warning: Go protobuf generation failed
+Generating JavaScript protobuf files...
+'protoc-gen-js' is not recognized as an internal or external command,
+operable program or batch file.
+--js_out: protoc-gen-js: Plugin failed with status code 1.
+Warning: JavaScript protobuf generation failed
+Protobuf generation completed.
+make: *** [Makefile:30: generate-proto] Error 1
+
+C:\Users\CLAIRVOYANT\MyProjects\Programs\Documents\Source\empath-engine>
